@@ -42,7 +42,7 @@ client.on('message', message => {
       message.channel.send(`**تم الارسال في الخاص**`);
 			let embed = new Discord.RichEmbed()
                 .setColor('RANDOM')
-                .addField('     **=-=-:: [ PANDA SERVER ] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
+                .addField('     **=-=-:: [ - Omèega Server ,] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
 				.addField(`**${prefix}bc | رسالة جماعية لجميع الاعضاء**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}bc1 | رسالة جماعية للاونلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}bc2 | رسالة جماعية للوفلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
