@@ -8,7 +8,7 @@ function clean(text) {
         return text;
 }
 
-const prefix = "+";
+const prefix = "!";
 const token = "NTUyNDg4MTc2MTUzOTE5NTA5.D2AQlQ.r97FSi423mQlhpti7Uw_54URX0Q"
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
