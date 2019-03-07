@@ -27,11 +27,7 @@ client.on('ready', () => {
   console.log('')
 });
 
- var prefix = "+"
-client.on('message', async msg => {
-    if (msg.author.bot) return undefined;
-   
-
+ 
  
 const adminprefix = "+vip";
 const devs = ['274923685985386496'];
@@ -57,25 +53,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
     message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)
 }
  
-});
-client.on("message", message => {
-    if (message.content === `${prefix}help`) {
-  const embed = new Discord.RichEmbed()
-      .setColor("#000000")
-      .setDescription(`
-${prefix}play ⇏ لتشغيل أغنية برآبط أو بأسم
-${prefix}skip ⇏ لتجآوز الأغنية الحآلية
-${prefix}stop ⇏ إيقآف الأغنية مؤقتا
-${prefix}resume ⇏ لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol ⇏ لتغيير درجة الصوت 100 - 0
-${prefix}leave⇏ لإخرآج البوت من الروم
-${prefix}np ⇏ لمعرفة الأغنية المشغلة حآليا
-${prefix}queue ⇏ لمعرفة قآئمة التشغيل
- `)
-   message.channel.sendEmbed(embed)
-   
-   }
-   });
+
  
  
  
